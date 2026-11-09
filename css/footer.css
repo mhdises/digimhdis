@@ -1,0 +1,406 @@
+
+.dk-footer {
+    direction: rtl;
+    width: 100%;
+    margin-top: 25px;
+    padding: 0 8px;
+    background: #fff;
+    color: #3f4064;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    box-sizing: border-box;
+}
+
+.dk-footer * {
+    box-sizing: border-box;
+}
+
+.dk-footer a {
+    color: yekan;
+    text-decoration: none;
+}
+
+.dk-footer a:hover {
+    color: #19bfd3;
+}
+
+.dk-footer button {
+    font-family: yekan;
+    cursor: pointer;
+}
+
+.dk-footer-head {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0 10px;
+    border-top: 1px solid #eee;
+}
+
+
+
+.dk-logo-symbol {
+    display: inline-block;
+    width: 30px;
+    height: 13px;
+    margin-right: 5px;
+    border-bottom: 7px solid #ef394e;
+    border-radius: 0 0 22px 22px;
+
+}
+
+.dk-contact-line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 9px;
+    color: #62666d;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: yekan;
+}
+
+.dk-contact-line span + span {
+    border-right: 1px solid #ddd;
+    padding-right: 12px;
+}
+
+.dk-back-top {
+    background: white;
+    border: 1px solid #dcdde1;
+    color: #81858b;
+    border-radius: 4px;
+    padding: 10px 20px;
+
+    a
+{
+    font-family: yekan;
+    font-size: 12px;
+    font-weight: bold;
+}
+}
+.dk-services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0 18px;
+    margin-top: 20px;
+}
+
+.dk-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    color: #53565f;
+
+    p{
+        font-family: yekan;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.dk-service-icon {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #62666d;
+}
+
+.dk-service-icon svg {
+    width: 29px;
+    height: 29px;
+    stroke: currentColor;
+    fill: none;
+  
+}
+
+/* ستون های لینک */
+.dk-footer-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    ;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 60px;
+    padding: 8px 0 22px;
+}
+
+.dk-column  p{
+    color: #23254e;
+    font-size: 15px;
+    margin: 0 0 13px;
+    font-weight: bold;
+    font-family: yekan;
+}
+
+.dk-column a {
+    display: block;
+    color: #81858b;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: yekan;
+}
+
+.dk-column a:hover {
+    color: #7d75dc;
+}
+
+.dk-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin: 12px 0 18px;
+}
+
+.dk-social-icons a {
+    color: #9b9ea4;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.dk-social-icons a:hover {
+    color: #8ea9fa;
+}
+
+.dk-newsletter-title {
+    color: #3f4064;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: bold;
+    line-height: 1.9;
+    margin-bottom: 9px;
+}
+
+.dk-newsletter {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.dk-newsletter input {
+    width: 100%;
+    min-width: 0;
+    height: 50px;
+    padding: 0 10px;
+    background: #f0f0f1;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-family: yekan;
+    font-size: 10px;
+}
+
+.dk-newsletter input:focus {
+    border-color: #19bfd3;
+    
+}
+.dk-newsletter button {
+    border: 0;
+    background: #e0e0e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0 11px;
+    font-size: 9px;
+}
+
+/* نوار دانلود اپلیکیشن */
+.dk-app-banner {
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    gap: 12px;
+    background: #3c4b70;
+    color: #fff;
+    border-radius: 4px;
+    padding: 7px 10px;
+    margin: 0 0 27px;
+  
+
+}
+
+.dk-app-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: yekan;
+
+}
+
+.dk-app-mark {
+    width: 41px;
+    height: 41px;
+    background: #5d39ef;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: yekan;
+}
+
+.dk-app-stores {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    direction: ltr;
+}
+
+.dk-store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #333 !important;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+
+}
+.myhr{
+    border-bottom: solid 1px #eee;
+}
+/* درباره دیجی کالا و مجوزها */
+.dk-about {
+  
+    display: flex;
+    gap: 22px;
+    align-items: start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-top: 30px;
+}
+
+.dk-about-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 9px;
+    .title-text{
+        font-size: 20px;
+        font-family: yekan;
+        font-weight: bold;
+        color: #333;
+    }
+}
+
+.dk-about-text p {
+    color: #81858b;
+    width: 80%;
+    font-size: 8px;
+    line-height: 2;
+    margin: 0;
+      font-size: 15px;
+      font-family: yekan;
+    text-align: justify;
+}
+
+.dk-read-more {
+    display: inline-block;
+font-size: 15px !important;
+  font-family: yekan;
+  font-weight: bold;
+    color: #19bfd3 !important;
+    margin-top: 9px;
+    font-size: 9px;
+}
+
+.dk-certificates {
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.dk-certificate {
+    width: 106px;
+    height: 106px;
+    border: 1px solid #e0e0e2;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #81858b;
+    padding: 4px;
+    text-align: center;
+    margin: 40px 10px;
+    font-size: 7px;
+    img{
+        width: 80%;
+        height: 80%;
+    }
+}
+.dk-legal {
+    text-align: center;
+    color: #81858b;
+    font-size: 14px;
+    font-family: yekan;
+    line-height: 2;
+    padding: 15px 0 22px;
+}
+.dk-brands {
+    height: 150px;
+display: flex;
+flex-wrap: wrap;
+    background: #f1f1f2;
+   margin: 20px -8px -100px ;
+    border-top: 1px solid #e5e5e5;
+    a{
+        width: 11%;
+        font-family: yekan;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.dk-brand {
+    min-height: 38px;
+    padding: 7px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #dedee0;
+    border-bottom: 1px solid #dedee0;
+    color: #53565f;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.dk-brand:nth-child(9n) {
+    border-left: 0;
+}
+
+.dk-brand:nth-child(n+10) {
+    min-height: 40px;
+    font-size: 12px;
+}
+
+.dk-brand span {
+    color: #6c6e75;
+}
+
+

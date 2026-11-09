@@ -1,0 +1,14 @@
+.support{
+    width: 60px;
+    height: 60px;
+    background:linear-gradient(#a855f7 , #3b82f6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    z-index: 3;
+    cursor: pointer;
+}

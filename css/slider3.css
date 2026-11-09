@@ -1,0 +1,151 @@
+.bestsellers {
+  width: 90%;
+  height: 400px;
+  box-sizing: border-box;
+  margin: 25px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  border-radius: 22px;
+  background: #fff;
+  direction: rtl;
+  font-family: yekan;
+}
+
+.best-heading p {
+  margin: 5px 0 25px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: yekan;
+  color: black;
+}
+
+.best-slider-container {
+  position: relative ;
+  padding: 0 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bestSwiper {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.bestSwiper .swiper-slide {
+  height: calc(300px / 3);
+  box-sizing: border-box;
+}
+
+.best-card {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.best-number {
+  min-width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4e99b7;
+  color: white;
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.best-info {
+  flex: 1;
+  min-width: 0;
+  text-align: right;
+  line-height: 1.8;
+  color: #55556a;
+}
+
+.best-info p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.best-info small {
+  font-size: 12px;
+  color: #888;
+}
+
+.best-card img {
+  width: 80px;
+  height: 90px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.best-arrow {
+  position: absolute;
+  top: 150px;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background: white;
+  color: #555;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.best-prev {
+  right: -5px;
+}
+
+.best-next {
+  left: -5px;
+}
+
+.best-arrow:hover {
+  background: #f5f5f5;
+}
+
+.best-card {
+  flex-direction: row;
+  direction: rtl;
+}
+
+.best-card img {
+  order: 1;
+}
+
+.best-number {
+  order: 2;
+}
+
+.best-info {
+  order: 3;
+  text-align: right;
+}
+.best-slider-container {
+  position: relative !important;
+  isolation: isolate;
+}
+
+.best-arrow {
+  position: absolute !important;
+  z-index: 10;
+}
+
+.best-prev {
+  right: -5px !important;
+}
+
+.best-next {
+  left: -5px !important;
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family:yekan;
+  src: url(/fonts/yekan/YekanWeb-Regular.eot);
+  src: url(/fonts/yekan/YekanWeb-Regular.ttf);
+  src: url(/fonts/yekan/YekanWeb-Regular.woff);
+  src: url(/fonts/yekan/YekanWeb-Regular.woff2);
+}
+  ::-webkit-scrollbar{
+    background-color: #f0f0f1;
+    width: 10px;
+    
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #898a8d;
+    border-radius: 30px;
+  }

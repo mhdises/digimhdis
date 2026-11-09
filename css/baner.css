@@ -1,0 +1,28 @@
+.baner-pro{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    box-sizing: border-box;
+    align-items: center;
+
+    .baner-img{
+        width: 90%;
+           display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    .imgb{
+        width: 639px;
+        height: 240px;
+    }
+    gap: 10px;
+        img{
+        width: 310px;
+        height: 209px;
+        border-radius: 20px;
+    
+        }
+      
+    }
+}
